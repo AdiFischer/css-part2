@@ -73,4 +73,9 @@
     border: solid 2px #898989;
  }
 
- 
+ @media (max-width: 600px){
+    .column {
+        width: 100%;
+    }
+ }
+
