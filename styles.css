@@ -1,29 +1,30 @@
 *,
 *::after,
 *::before {
-    margin: 0;
-    padding: 0;
+    margin: 20;
+    padding: 77;
     box-sizing: inherit;
     font-family: verdana;
 }
 
 .topnav {
-    background-color: #333;
+    background-color:rgb(246, 226, 226);
     overflow: hidden;
+    
 }
 
 .topnav a {
-    float: left;
-    color: #f2f2f2;
+    float: right;
+    color: greenyellow;
     padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
+    text-decoration: rgba(237, 235, 232, 0.756);
+    font-size: 11px;
 }
 
 
 .topnav a:hover {
-    background-color: #ddd;
-    color: #666;
+    background-color: rgb(19, 215, 42);
+    color: rgb(19, 215, 42);
 
 }
 .container {
@@ -40,21 +41,28 @@
 .text-block {
     position: absolute;
     background-color: rgba(38, 33, 33, 0.512);
-    color: #f2f2f2;
+    color: #6e6161;
     padding: 10px 20px;
     bottom: 20px;
     right: 20px;
 }
 
 .heading {
-    background-color: #f1f1f1;
+    background-color: hotpink;
+    color: rgba(84, 9, 9, 0.074);
     padding: 3rem;
-    text-align: center;
-    font-size: 35px;
+    text-align: left;
+    font-size: 10px;
+}
+p {
+    color: blue;
+    background-color: rgb(128, 0, 102);
 }
 
 .row {
-    background-color: #666;
+    background-color: powderblue;
+    width: 50%;
+    height: 10%;
 }
 
 .row:after {
@@ -65,12 +73,12 @@
  .column {
     float: left;
     width: 30%;
-    background-color: #676767;
+    background-color: #de5312;
     padding: 10px;
     margin-left: 10px;
     height: 8rem;
-    text-align: center;
-    border: solid 2px #898989;
+    text-align: left;
+    border: groove 2px #f80bec;
  }
 
  @media (max-width: 600px){
