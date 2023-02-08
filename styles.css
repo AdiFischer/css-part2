@@ -8,9 +8,9 @@
 }
 
 .topnav {
-    background-color:rgb(246, 226, 226);
+    background-color: rgb(246, 226, 226);
     overflow: hidden;
-    
+
 }
 
 .topnav a {
@@ -27,11 +27,12 @@
     color: rgb(19, 215, 42);
 
 }
+
 .container {
     position: relative;
 }
 
-.container > img {
+.container>img {
     width: 100%;
     height: 80vh;
     object-fit: cover;
@@ -54,6 +55,7 @@
     text-align: left;
     font-size: 10px;
 }
+
 p {
     color: blue;
     background-color: rgb(128, 0, 102);
@@ -70,7 +72,8 @@ p {
     display: table;
     clear: both;
 }
- .column {
+
+.column {
     float: left;
     width: 30%;
     background-color: #de5312;
@@ -79,11 +82,10 @@ p {
     height: 8rem;
     text-align: left;
     border: groove 2px #f80bec;
- }
+}
 
- @media (max-width: 600px){
+@media (max-width: 600px) {
     .column {
         width: 100%;
     }
- }
-
+}

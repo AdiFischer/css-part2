@@ -1,3 +1,8 @@
 {
-    "livePreview.defaultPreviewPath": "/Users/adifischer/bocacode/css-part2/index.html"
+    "livePreview.defaultPreviewPath": "/Users/adifischer/bocacode/css-part2/index.html",
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#511934",
+        "titleBar.activeBackground": "#712349",
+        "titleBar.activeForeground": "#FEFCFD"
+    }
 }
